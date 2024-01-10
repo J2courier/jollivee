@@ -26,7 +26,7 @@ def display():
     print(f"[4] {des[4]}")
 #to create out loop for entering a choice
 while True:
-    display()#call out the function displa
+    display()#call out the function display
     ch = int(input("please enter choice: "))
     if ch < 0 or ch > 4:
         print("invalid input")
